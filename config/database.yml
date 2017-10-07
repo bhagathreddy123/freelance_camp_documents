@@ -1,0 +1,28 @@
+
+#
+default: &default
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+  username: username
+  password: password
+  template: template0
+
+development:
+  <<: *default
+  database: freelance_camp_documents_development
+
+test:
+  <<: *default
+  database: freelance_camp_documents_test
+
+
+production:
+  <<: *default
+  database: freelance_camp_documents_production
+  username: freelance_camp_documents
+  password: <%= ENV['FREELANCE_CAMP_DOCUMENTS_DATABASE_PASSWORD'] %>
+
