@@ -27,5 +27,6 @@ Things you may want to cover:
 rails g scaffold FreelanceDocument title:string description:string file_url:text image_url:text
 
 
-FreelanceDocument.create!(title: "A Totally Different One",description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",file_url: "https://docs.google.com/document/d/1UUgAob6ZpivgkgCbMD84JMMRc1flrzCPKybtQoAfASo/edit?usp=sharing",image_url: 'https://s3.amazonaws.com/devcamp-static/images/freelance-img-2.jpg'
- 	)
+FreelanceDocument.create!(title: "A Totally Different One",description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",file_url: "https://docs.google.com/document/d/1UUgAob6ZpivgkgCbMD84JMMRc1flrzCPKybtQoAfASo/edit?usp=sharing",image_url: 'https://s3.amazonaws.com/devcamp-static/images/freelance-img-2.jpg')
+
+
